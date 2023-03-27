@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+a { /*Editar Links*/
+    text-decoration: none;
+    color: #3D0000;
+    font-size: 60px;
+}
+
+ul {  
+    list-style: none;
+    font-weight: bold;
+}
+
+header {
+    background:no-repeat center/cover url('assets/flamengo_camisa.jpg');
+    height: calc(100vh - 150px);
+}
+
+header nav ul { 
+    display: flex;
+}
+
+header nav ul li { 
+    margin: 0 20px;
+}
+
+/*home*/
+.home h1 {
+    color: #950101;
+    font-size: 90px;
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home p {
+    font-size: 50px;
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+/*história*/
+.hist .hist-titulo {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+
+/*jogadores*/
+.jogadores .jogadores-titulo {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+/*titulos*/
+.titulos .titulo-tit {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
