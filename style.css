@@ -16,7 +16,7 @@ ul {
 }
 
 header {
-    background:no-repeat center/cover url('assets/flamengo_camisa.jpg');
+    background:no-repeat center/cover url('https://static.cdn.pleno.news/2022/10/52455970641_d832d1ca46_c.jpg');
     height: calc(100vh - 150px);
 }
 
@@ -43,19 +43,74 @@ header nav ul li {
     text-align: center;
     font-weight: bold;
 }
+
 /*história*/
 .hist .hist-titulo {
     width: 100%;
     text-align: center;
     margin: 25px 0;
+    font-family: 'Alkatra', cursive;
+    color: #950101;
 }
 
 
 /*jogadores*/
+.jogadores {
+    background: #FF9494;
+    padding: 15px;
+}
+
 .jogadores .jogadores-titulo {
     width: 100%;
     text-align: center;
     margin: 25px 0;
+    font-family: 'Alkatra', cursive;
+    color: #950101;
+}
+
+.jogadores .card { 
+    width: 250px;
+    height: 430px;
+    background: #FFD1D1;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.jogadores .jog-image { /*editar a imagem do link*/
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 24px 0 0;
+    object-fit: cover;
+}
+
+.jogadores .jogadores-card .jogadores-posi {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #dd4848;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.jogadores .jogadores-card .jogadores-num {
+    position: absolute;
+    left: 0;
+    top: 150px;
+    background: #dd4848;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.jogadores .jogadores-card .jogadores-posi {
+    margin: 0;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: bold;
+}
+
+.jogadores .jog-nome h1 {
+    font-size: 1rem
 }
 
 /*titulos*/
@@ -63,4 +118,42 @@ header nav ul li {
     width: 100%;
     text-align: center;
     margin: 25px 0;
+    font-family: 'Alkatra', cursive;
+    color: #950101;
+}
+
+/*Contato*/
+.contato {
+    padding: 60px;
+    background-color: #CF0A0A;
+    position: relative;
+    text-align: right;
+}
+
+.contato .contato-info {
+    width: 350px;
+    height: 300px;
+    background:  #CF0A0A;
+    position: absolute;
+    z-index: 99;
+    border-radius: 8px;
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato .contato-info h1 {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contato .contato-info li {
+    font-size: .8rem;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
 }
